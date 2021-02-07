@@ -1,0 +1,7 @@
+# Aktivierung, muss stehen!!!
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+# .php entfernen für Aufruf
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+# .html entfernen für Aufruf
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

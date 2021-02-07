@@ -1,0 +1,991 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    background:grey;
+}
+
+section.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/backgrounds/bgwithnoise/bluebackgroundwithnoisefullhd.png");
+    background-repeat: repeat;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.createGuideContainer{
+    width: 70%;
+    margin: 100px 0 30px 0;
+    background: #002764;
+    padding: 35px;
+}
+
+form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* align-items: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+label{
+    /* display: block; */
+    font-family: 'caudex-bold';
+    color: white;
+    font-size: 1.5rem;
+}
+
+input[type=text],
+textarea{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: solid 2px #A19100;
+    font-size: 1.2rem;
+}
+
+select{
+    display: block;
+    color: white;
+    font-family: "caudex";
+    font-size: 1.2rem;
+    background: #03518C;
+    border: 1px solid #A19100;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.createGuideP{
+    font-family: 'caudex-bold';
+    color: white;
+    font-size: 1.5rem; 
+}
+
+.roleSelectionContainer{
+    margin: 10px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.roleSelection{
+    width: 120px;
+    padding: 7px;
+    margin: 0 5px;
+    text-align: center;
+    background: #03518C;
+    border: #A19100 solid 1px;
+    /* display: inline; */
+}
+
+.runeSelectionWrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+input[type=radio],
+input[type=checkbox] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    /* display: inline; */
+  }
+  
+input[type=radio] + .roleSelection,
+#championSelect,
+input[type=radio] + .primaryRuneSelection,
+.bigRuneSelection,
+input[type=radio] + .secondaryRuneSelection,
+input[type=radio] + .runeStatModSelection,
+input[type=radio] + .abilityIcon,
+.smallRuneSelection,
+input[type=checkbox] + .abilityIcon {
+    cursor: pointer;
+}
+  
+input[type=radio]:checked + .roleSelection,
+input[type=checkbox] + .abilityIcon{
+    outline: 2px solid #A19100;
+    background: #003D80;
+}
+
+input[type=radio]:checked + .primaryRuneSelection,
+input[type=radio]:checked + .bigRuneSelection,
+input[type=radio]:checked + .smallRuneSelection,
+input[type=radio]:checked + .secondaryRuneSelection,
+input[type=checkbox]:checked + .abilityIcon{
+    border: #A19100 3px solid;
+    background: #003D80;
+}
+
+.runeSelectionContainer,
+.secondaryRuneSelectionContainer{
+    margin: 10px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.runeSelectionSmallTitle{
+    font-family: 'caudex';
+    color: white;
+    font-size: 1.1rem; 
+    margin: 5px 10px;
+}
+
+.primaryRuneSelection,
+.secondaryRuneSelection{
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 0 10px;
+    text-align: center;
+    background: #03518C;
+    border: #A19100 solid 1px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+}
+
+.primaryRuneSelection img,
+.secondaryRuneSelection img{
+    width: 40px;
+}
+
+.primaryRuneContainer{
+    background: #03518C;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid white;
+    width: 600px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.secondaryRuneContainer{
+    width: 65%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.doubleRuneDivsContainer1,
+.doubleRuneDivsContainer2{
+    background: #03518C;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid white;
+    width: 400px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.bigRuneSelectContainer{
+    margin-bottom: 10px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.bigRuneSelection{
+    background: #03518C;
+    border: #A19100 solid 1px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.bigRuneSelection img{
+    width: 100%;
+}
+
+.smallRuneSelectContainer1,
+.smallRuneSelectContainer2,
+.smallRuneSelectContainer3,
+.smallRuneSelectContainer4,
+.secondaryprecisionRunes,
+.secondarydominationRunes,
+.secondarysorceryRunes,
+.secondaryresolveRunes,
+.secondaryinspirationRunes{
+    margin: 15px auto;
+    width: 350px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.smallRuneSelection{
+    background: #03518C;
+    border: #A19100 solid 1px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.smallRuneSelection img{
+    width: 100%;
+}
+
+.runeStatMods{
+    background: #03518C;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid white;
+    width: 250px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.runeStatModSelection{
+    width: 40px;
+    height: 40px;
+    border: #A19100 solid 1px;
+    background: #03518C;
+    border-radius: 50%;
+}
+
+.runeStatModSelection img{
+    width: 100%;
+}
+
+.runeStatsModsContainer{
+    padding: 15px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+input[type=radio]:checked + .runeStatModSelection{
+    background: #003D80;
+}
+
+.summonerSpellsContainer{
+    background: #03518C;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid white;
+    width: 600px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    /* justify-content: space-evenly; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.summonerSpellsContainer label{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.summonerSpellsContainer .abilityIcon{
+    width: auto;
+    /* height: 64px; */
+    margin: 10px 15px;
+    /* position: absolute; */
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+/* .summonerSpellsContainer .abilityIcon img{
+} */
+
+.abilityMaxingOrder{
+    background: #03518C;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid white;
+    width: 600px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.abilityMaxingOrderContainer{
+
+
+    display: -webkit-box;
+
+
+    display: -ms-flexbox;
+
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.abilityMaxingOrderContainer p{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 1.5rem;
+}
+
+.abilityContainer1,
+.abilityContainer2,
+.abilityContainer3,
+.abilityContainer4{
+    margin: 10px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.abilityContainer1 .abilityIcon,
+.abilityContainer2 .abilityIcon,
+.abilityContainer3 .abilityIcon,
+.abilityContainer4 .abilityIcon{
+    margin: 0 20px;
+    border: #A19100 solid 1px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.abilityContainer1 img,
+.abilityContainer2 img,
+.abilityContainer3 img,
+.abilityContainer4 img{
+    width: 64px;
+    Height: 64px;
+}
+
+input[type=radio]:checked + .abilityIcon{
+    border: #A19100 5px solid;
+    /* outline: 5px solid #A19100; */
+}
+
+.textInhalt{
+    padding: 10px 0;
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* align-items: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.textInhalt label{
+    font-size: 1.4rem;
+    padding: 5px 0;
+}
+
+input[type=submit]{
+    width: 200px;
+    background: #03518C;
+    font-size: 1.3rem;
+    border: #A19100 solid 1px;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    font-family: "Caudex-bold";
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background: #003D80;
+}
+
+.dominationRunes1,
+.sorceryRunes1,
+.resolveRunes1,
+.inspirationRunes1,
+.dominationRunes2,
+.dominationRunes3,
+.dominationRunes4,
+.sorceryRunes2,
+.sorceryRunes3,
+.sorceryRunes4,
+.resolveRunes2,
+.resolveRunes3,
+.resolveRunes4,
+.inspirationRunes2,
+.inspirationRunes3,
+.inspirationRunes4,
+.secondaryprecisionRunes,
+.secondarysorceryRunes,
+.secondaryresolveRunes,
+.secondaryinspirationRunes,
+#secondaryprecisionSelection
+{
+    display: none;
+}
+
+.titleOfGuide,
+.championSelection,
+.roleSelectionContainer,
+.runeStatMods,
+.abilityMaxingOrder{
+    margin-bottom: 30px;
+}
+
+.successContainer{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(26, 117, 26);
+    border: solid 2px rgb(94, 185, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.displayerrors{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(134, 29, 29);
+    border: solid 2px rgb(251, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+    input[type=text],
+    textarea{
+        display: block;
+        width: 100%;
+        padding: 5px 10px;
+        margin: 10px 0;
+        border: solid 2px #A19100;
+        font-size: 1.2rem;
+    }
+
+    .createGuideContainer{
+        width: 90%;
+        padding: 0;
+    }
+
+    .roleSelectionContainer{
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .roleSelection{
+        margin: 10px 10px;
+    }
+
+    .runeSelectionContainer,
+    .secondaryRuneSelectionContainer{
+        margin: 10px 0;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        /* justify-content: center; */
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap; */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column wrap;
+                flex-flow: column wrap;
+    }
+
+    .runeSelectionContainer label{
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+
+    select{
+        font-family: "caudex-bold";
+        font-size: 1.2rem;
+        background: #03518C;
+        border: 1px solid #A19100;
+        padding: 10px;
+        margin: 10px 0;
+        width: 250px;
+    }
+
+    .primaryRuneContainer{
+        background: #03518C;
+        padding: 20px;
+        margin: 10px 0;
+        border: 1px solid white;
+        width: 100%;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .primaryRuneSelection,
+    .secondaryRuneSelection{
+        margin: 10px;
+    }
+    
+    .secondaryRuneContainer{
+        width: 65%;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .smallRuneSelectContainer1,
+    .smallRuneSelectContainer2,
+    .smallRuneSelectContainer3,
+    .smallRuneSelectContainer4,
+    .secondaryprecisionRunes,
+    .secondarydominationRunes,
+    .secondarysorceryRunes,
+    .secondaryresolveRunes,
+    .secondaryinspirationRunes{
+        margin: 15px auto;
+        width: 270px;
+
+        -webkit-box-pack: space-evenly;
+
+            -ms-flex-pack: space-evenly;
+
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+    }
+    
+    .bigRuneSelection{
+        background: #03518C;
+        border: #A19100 solid 1px;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .smallRuneSelection{
+        background: #03518C;
+        border: #A19100 solid 1px;
+        border-radius: 50%;
+        width: 65px;
+        height: 65px;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .secondaryRuneContainer{
+        width: 100%;
+    }
+
+    .doubleRuneDivsContainer1,
+    .doubleRuneDivsContainer2{
+        width: 100%;
+    }
+
+    .runeStatMods{
+        background: #03518C;
+        padding: 20px;
+        margin: 10px auto;
+        border: 1px solid white;
+        width: 250px;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .summonerSpellsContainer{
+        width: 100%;
+    }
+
+    .abilityMaxingOrder{
+        background: #03518C;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid white;
+        width: auto;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .abilityContainer1,
+    .abilityContainer2,
+    .abilityContainer3,
+    .abilityContainer4{
+        margin: 0 5px;
+        width: 100%;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .abilityContainer1 .abilityIcon,
+    .abilityContainer2 .abilityIcon,
+    .abilityContainer3 .abilityIcon,
+    .abilityContainer4 .abilityIcon{
+        margin: 0 5px;
+    }
+
+    .abilityMaxingOrderContainer p{
+        display: none;
+    }
+
+    .abilityContainer1 img,
+    .abilityContainer2 img,
+    .abilityContainer3 img,
+    .abilityContainer4 img{
+        width: 56px;
+        Height: 56px;
+    }
+
+    .titleOfGuide,
+    .championSelection,
+    .createGuideP,
+    .textInhalt{
+        padding: 10px;
+    }
+
+    input[type=submit]{
+        width: 300px;
+        margin: 20px auto;
+        /* padding: 20px; */
+    }
+
+  }

@@ -1,0 +1,10 @@
+/* === MY FONTS === */
+
+@font-face {
+    font-family: "caudex";
+    src: url("../fonts/caudex/Caudex-Regular.ttf");
+
+    font-family: "caudex-bold";
+    src: url("../fonts/caudex/Caudex-Bold.ttf");
+  }
+

@@ -1,0 +1,486 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/backgrounds/bgwithnoise/bluebackgroundwithnoisefullhd.png");
+    background-repeat: repeat;
+}
+
+.main .admin{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.main .admin h1{
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+    text-transform: uppercase
+}
+
+.main .admin .adminContainer{
+    background: #002764;
+    border: #A19100 1px solid;
+    padding: 20px 0;
+    /* height: 600px; */
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .admin .adminContainer .latestGuidesContainer,
+.main .admin .adminContainer .latestRegistrationsContainer{
+    width: 100%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* align-items: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .admin .adminContainer .latestGuidesContainer h2,
+.main .admin .adminContainer .latestRegistrationsContainer h2{
+    font-family: "caudex-bold";
+    font-size: 1.7rem;
+    color: white;
+    padding-left: 20px;
+}
+
+.main .admin .adminContainer .latestGuidesContainer a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide{
+    padding: 5px;
+    border: 1px solid #A19100;
+    width: 100%;
+    background: #003D80;
+    margin: 10px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide img{
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid #A19100;
+    margin: 5px;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide .guideInfos{
+    margin-left: 30px;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide .guideInfos .title{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "caudex-bold";
+    margin-bottom: 30px;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide .guideInfos .smallInfo{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "caudex";
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guide .guideInfos .smallInfo span{
+    color: #A19100;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guideUserEdit{
+    position: relative;
+    left: 60%;
+    /* float: left; */
+    bottom: 11px;
+    width: 200px;
+    border: 1px solid #A19100;
+    border-top: none;
+    padding: 10px 30px;
+    background: #003D80;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guideUserEdit i{
+    font-size: 2rem;
+    color: white;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.main .admin .adminContainer .latestGuidesContainer .guideUserEdit i:hover{
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+}
+
+.main .admin .adminContainer .latestGuidesContainer a .latestGuidesToTheGuides{
+    margin: 20px 30px;
+    padding: 10px 0;
+    background: #03518C;
+    border: solid 1px white;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.main .admin .adminContainer .latestGuidesContainer a .latestGuidesToTheGuides{
+    color: white;
+    font-family: "caudex-bold", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.main .admin .adminContainer .latestGuidesContainer a .latestGuidesToTheGuides:hover{
+    background: #003D80;
+    cursor: pointer;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .user{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    border: #A19100 solid 1px;
+    background: #003D80;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .user .userinfo,
+.main .admin .adminContainer .latestRegistrationsContainer .user .useremail,
+.main .admin .adminContainer .latestRegistrationsContainer .user .userdate{
+    width: 33%;
+    text-align: center;
+    color: white;
+    font-family: "caudex";
+    font-size: 1.2rem;
+    padding: 10px 0;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .user .useremail{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .usereditContainer .userDelete{
+    position: relative;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+
+        -ms-transform: translateX(-50%);
+
+            transform: translateX(-50%);
+    bottom: 20px;
+    width: 100px;
+    border: 1px solid #A19100;
+    border-top: none;
+    padding: 10px 30px;
+    background: #003D80;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .usereditContainer .userDelete i{
+    font-size: 2rem;
+    color: white;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .usereditContainer .userDelete i:hover{
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(27, 27, 27, 0.5);
+    position: fixed;
+    z-index: 106;
+    top: 0;
+    left: 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* display: none; */
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion{
+    padding: 20px 30px;
+    background: #003D80;
+    border-radius: 5px;
+    border: solid 1px #A19100;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion .deleteYesNo{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion .deleteYesNo p,
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion .deleteYesNo a{
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    margin: 10px 20px 0 20px;
+}
+
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion .deleteYesNo p:hover,
+.main .admin .adminContainer .latestRegistrationsContainer .deleteContainer .deleteQuestion .deleteYesNo a:hover{
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+}
+
+.successContainer{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(26, 117, 26);
+    border: solid 2px rgb(94, 185, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.displayerrors{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(134, 29, 29);
+    border: solid 2px rgb(251, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+
+    .main .admin{
+        width: 80%;
+        padding-top: 120px;
+    }
+
+    .main .admin h1{
+        font-size: 2.3rem;
+    }
+
+    .main .admin .adminContainer .latestGuidesContainer .guide{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .admin .adminContainer .latestGuidesContainer .guide .guideInfos{
+        margin: 0;
+    }
+
+    .main .admin .adminContainer .latestGuidesContainer .guide .guideInfos .title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .main .admin .adminContainer .latestGuidesContainer .guide .guideInfos .smallInfo{
+        font-size: 1rem;
+    }
+
+    .main .admin .adminContainer .latestRegistrationsContainer .user{    
+        display: -webkit-box;    
+        display: -ms-flexbox;    
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .main .admin .adminContainer .latestRegistrationsContainer .user .userinfo,
+    .main .admin .adminContainer .latestRegistrationsContainer .user .useremail,
+    .main .admin .adminContainer .latestRegistrationsContainer .user .userdate{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+    .main .admin .adminContainer .latestRegistrationsContainer .user .useremail{
+        border: none;
+    }
+
+    .main .admin .adminContainer .latestGuidesContainer .guideUserEdit{
+        position: relative;
+        width: 100%;
+        /* border: none; */
+        bottom: 10px;
+        left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .main .admin .adminContainer .latestGuidesContainer .guideUserEdit i{
+        font-size: 2rem;
+        color: white;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
+        transition: 0.1s;
+    }
+
+}

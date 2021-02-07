@@ -1,0 +1,264 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+nav{
+    width: 100%;
+    font-family: "caudex";
+    color: white;
+
+    z-index: 105;
+}
+
+nav .desktopNavigation{
+    height: 80px;
+    background: #03518C;
+    width: 100%;
+    position: fixed;
+    z-index: 105;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    /* display: none; */
+}
+
+nav .desktopNavigation .desktopNavigationleft{
+    padding: 10px 20px;
+    height: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+nav .desktopNavigation .desktopNavigationleft a{
+    height: 100%;
+}
+
+nav .desktopNavigation .desktopNavigationleft a img{
+    height: 100%;
+}
+
+nav .desktopNavigation .desktopNavigationleft .navigationUL{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+nav .desktopNavigation .desktopNavigationright .navigationUL{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav .desktopNavigation .desktopNavigationleft .navigationLI:hover,
+nav .desktopNavigation .desktopNavigationright .navigationLI:hover{
+    cursor: pointer;
+}
+
+nav .desktopNavigation .desktopNavigationleft .navigationLI:hover a,
+nav .desktopNavigation .desktopNavigationright .navigationLI:hover a{
+    color: rgb(180, 180, 180);
+}
+
+nav .desktopNavigation .desktopNavigationleft .navigationLI a,
+nav .desktopNavigation .desktopNavigationright .navigationLI a{
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    color: white;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-family: "caudex-bold";
+    padding: 20px 30px;
+}
+
+nav .desktopNavigation .desktopNavigationright p{
+    color: white;
+    font-size: 1.3rem;
+    font-family: "caudex-bold";
+    padding: 20px 30px;
+}
+
+nav .mobileNavigation{
+    width: 100vw;
+    /* height: 100vh; */
+    z-index: 105;
+
+    display: none;
+
+}
+
+nav .mobileNavigation i{
+    font-size: 3rem;
+    position: fixed;
+    right: 35px;
+    top: 25px;
+    fill: white;
+
+    z-index: 105;
+}
+
+nav .mobileNavigation .mobileNavigationContainer{
+    background: #000C32;
+    width: 100vw;
+    height: 100vh;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    opacity: 0;
+    position: fixed;
+
+    z-index: 104;
+
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+nav .mobileNavigation .navIsOn{
+    opacity: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper{
+    
+    
+    display: -webkit-box;
+    
+    
+    display: -ms-flexbox;
+    
+    
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper .mobileLogin{
+    width: 200px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper .mobileLogin p{
+    color: white;
+    font-family: "caudex-bold";
+
+    font-size: 1.7rem;
+    padding: 20px 10px;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper .mobileLogin p a{
+    text-decoration: none;
+    color: white;
+    font-family: "caudex-bold";
+
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper ul{
+    height: auto;
+    list-style: none;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper ul li{
+    text-align: center;
+    padding: 10px;
+}
+
+.mobileNavigationContainer .moblieNavigationWrapper ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: "caudex-bold";
+
+    font-size: 1.7rem;
+    padding: 20px;
+}
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+
+    nav .desktopNavigation{
+        display: none;
+    }
+
+    nav .mobileNavigation{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}

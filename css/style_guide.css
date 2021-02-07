@@ -1,0 +1,735 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/backgrounds/bgwithnoise/bluebackgroundwithnoisefullhd.png");
+    background-repeat: repeat;
+}
+
+.main .guide{
+    width: 1215px;
+    margin: 0 auto;
+    padding: 150px 0 100px 0;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideContainer{
+    background: #002764;
+    width: 100%;
+}
+
+.main .guide .guideheader{
+    width: 100%;
+    position: relative;
+    
+}
+
+.main .guide .guideheader .headerInfos{
+    position: absolute;
+    bottom: 4px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: auto;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideheader .headerInfos h1{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.main .guide .guideheader .headerInfos .userInfos{
+    color: white;
+    font-family: "caudex";
+    font-size: 1.2rem;
+    padding: 20px;
+}
+
+.main .guide .guideheader .headerInfos .userInfos span{
+    color: #A19100;
+}
+
+.main .guide .guideInhalt{
+    width: 100%;
+    padding: 20px 50px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideInhalt .runesAndSpells{
+    width: 100%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes{
+    
+    
+    display: -webkit-box;
+    
+    
+    display: -ms-flexbox;
+    
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* align-items: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes h2{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer{
+    padding: 10px;
+    background: #003D80;
+    border: #A19100 solid 1px;
+    width: 500px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .runedecoration{
+    background: #002764;
+    position: absolute;
+    width: 70%;
+    height: 25px;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .bigRune{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 125px;
+    background: #03518C;
+    z-index: 101;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .bigRune img{
+    width: 123px;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .runeImages,
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes .runeImages{
+    border-radius: 50%;
+    border: white 1px solid;
+    z-index: 101;
+    width: 66px;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes{
+    width: 50%;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes .runedecoration{
+    background: #002764;
+    position: absolute;
+    width: 70%;
+    height: 25px; 
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts{
+    width: 40%;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts .statmod{
+    border-radius: 50%;
+    border: white 1px solid;
+    background: #03518C;
+    z-index: 101;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts .runedecorationsmall{
+    background: #002764;
+    position: absolute;
+    width: 70%;
+    height: 10px; 
+}
+
+.main .guide .guideInhalt .runesAndSpells .spells{    
+    display: -webkit-box;    
+    display: -ms-flexbox;    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* align-items: center; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideInhalt .runesAndSpells .spells h2{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.main .guide .guideInhalt .runesAndSpells .spells .spellsContainer{
+    padding: 10px;
+    background: #003D80;
+    border: #A19100 solid 1px;
+    width: 350px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.main .guide .guideInhalt .runesAndSpells .spells .spellsContainer img{
+    border-radius: 50%;
+    border: white 1px solid;
+    width: 100px;
+}
+
+hr{
+    margin: 50px 0;
+    width: 90%;
+    color: white;
+}
+
+.main .guide .guideInhalt .abilityMaxingOrder{
+    width: 100%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideInhalt .abilityMaxingOrder h2{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer{
+    padding: 10px;
+    background: #003D80;
+    border: #A19100 solid 1px;
+    width: 650px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+}
+
+.main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer img{
+    border: 1px solid #A19100;
+    width: 80px;
+}
+
+.main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer .arrow{
+    width: 40px;
+    border: none;
+}
+
+.main .guide .guideInhalt .theGuide{
+    width: 100%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guide .guideInhalt .theGuide h2{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+/* === WYSIWYG === */
+
+.main .guide .guideInhalt .theGuide .theGuideContainer h1,
+.main .guide .guideInhalt .theGuide .theGuideContainer h2,
+.main .guide .guideInhalt .theGuide .theGuideContainer h3{
+    color: white;
+    font-family: "caudex-bold";
+    padding: 5px 0;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer h1{
+    font-size: 2.5rem;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer h2{
+    font-size: 2rem;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer h3{
+    font-size: 1.7rem;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer p{
+    color: white;
+    font-family: "caudex";
+    font-size: 1.2rem;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer p a{
+    color: rgb(89, 89, 230);
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer ul{
+    padding: 10px 0 10px 50px;
+    list-style-type: square;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.main .guide .guideInhalt .theGuide .theGuideContainer ul li{
+    padding: 5px;
+}
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+
+    .main .guide{
+        width: 330px;
+        margin: 0 auto;
+        padding: 360px 0 100px 0;
+        position: relative;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guide .guideheader img{
+        display: none;
+    }
+
+    .main .guide .guideheader .headerInfos{
+        position: absolute;
+        bottom: 0;
+        height: auto;
+    }
+    
+    .main .guide .guideheader .headerInfos h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .main .guide .guideheader .headerInfos .userInfos{
+        font-size: 1.1rem;
+        padding: 20px;
+    }
+
+    .main .guide .guideInhalt{
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells{
+        width: 100%;
+        
+        display: -webkit-box;
+        
+        display: -ms-flexbox;
+        
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes h2{
+        font-size: 2rem;
+        padding-bottom: 10px;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer{
+        padding: 20px 0;
+        background: #003D80;
+        border: #A19100 solid 1px;
+        width: 290px;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .runedecoration{
+        display: none;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .primaryRunes .runeImages{
+        margin-top: 30px;
+        width: 80px;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes .runeImages{
+        margin-top: 30px;
+        width: 60px;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .secondaryRunes .runedecoration{
+        display: none;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts{
+        margin-top: 10px;
+
+        -webkit-box-orient: vertical;
+
+        -webkit-box-direction: normal;
+
+            -ms-flex-direction: column;
+
+                flex-direction: column;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts .statmod{
+        margin-top: 10px;
+    
+        display: -webkit-box;
+    
+        display: -ms-flexbox;
+    
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .runes .runesContainer .statBoosts .runedecorationsmall{
+        display: none;
+    }
+
+    .main .guide .guideInhalt .runesAndSpells .spells h2{
+        font-size: 2rem;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .spells .spellsContainer{
+        width: 290px;
+    
+        -webkit-box-orient: vertical;
+    
+        -webkit-box-direction: normal;
+    
+            -ms-flex-direction: column;
+    
+                flex-direction: column;
+    }
+    
+    .main .guide .guideInhalt .runesAndSpells .spells .spellsContainer img{
+        border-radius: 50%;
+        border: white 1px solid;
+        width: 100px;
+        margin: 20px 0;
+    }
+    
+    hr{
+        width: 100%;
+    }
+
+    .main .guide .guideInhalt .abilityMaxingOrder h2{
+        font-size: 2rem;
+    }
+    
+    .main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer{
+        padding-top: 20px;
+        width: 290px;
+    
+        -webkit-box-orient: vertical;
+    
+        -webkit-box-direction: normal;
+    
+            -ms-flex-direction: column;
+    
+                flex-direction: column;
+    }
+    
+    .main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer img{
+        border: 1px solid #A19100;
+        width: 100px;
+        margin: 20px;
+    }
+    
+    .main .guide .guideInhalt .abilityMaxingOrder .abilityMaxingOrderContainer .arrow{
+        display: none;
+    }
+
+    .main .guide .guideInhalt .theGuide h2{
+        font-size: 2rem;
+    }
+    
+    /* === WYSIWYG === */
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer h1,
+    .main .guide .guideInhalt .theGuide .theGuideContainer h2,
+    .main .guide .guideInhalt .theGuide .theGuideContainer h3{
+        color: white;
+        font-family: "caudex-bold";
+        padding: 5px 0;
+    }
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer h1{
+        font-size: 2rem;
+    }
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer h2{
+        font-size: 1.7rem;
+    }
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer h3{
+        font-size: 1.5rem;
+    }
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer p{
+        color: white;
+        font-family: "caudex";
+        font-size: 1.2rem;
+    }
+    
+    .main .guide .guideInhalt .theGuide .theGuideContainer p a{
+        color: rgb(89, 89, 230);
+    }
+
+}

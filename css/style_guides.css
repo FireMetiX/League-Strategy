@@ -1,0 +1,666 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.main{
+    width: 100%;
+    height: auto;
+    background-image: url("../img/backgrounds/bgwithnoise/bluebackgroundwithnoisefullhd.png");
+    background-repeat: repeat;
+}
+
+.main .guides{
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px 0 100px 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guides .guidesTitle{
+    color: white;
+    font-family: "caudex-bold";
+    font-size: 3rem;
+    text-transform: uppercase
+}
+
+.main .guides .guidesContainer{
+    width: 100%;
+    margin: 20px 0;
+    background: #002764;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guides .guidesContainer .guidesFilter{
+    width: 100%;
+}
+
+.main .guides .guidesContainer .guidesFilter form{
+    width: 100%;
+    padding: 20px;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.main .guides .guidesContainer .guidesFilter p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: "caudex";
+}
+
+.main .guides .guidesContainer .guidesFilter .guidesLanes,
+.main .guides .guidesContainer .guidesFilter .guidesChampions{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guides .guidesContainer .guidesFilter .guidesChampions #championSelect{
+    cursor: pointer;
+}
+
+.main .guides .guidesContainer .guidesFilter .lanes,
+.main .guides .guidesContainer .guidesFilter .champions{
+    margin-left: 5px;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guides .guidesContainer .guidesFilter .filtern button{
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    background: #03518C;
+    border: #A19100 solid 1px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: "caudex-bold";
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    /* display: inline; */
+}
+.main .guides .guidesContainer .guidesFilter .filtern button:hover{
+    cursor: pointer;
+    background: #002764;
+}
+
+.lane{
+    width: 100px;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    background: #03518C;
+    border: #A19100 solid 1px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: "caudex-bold";
+    /* display: inline; */
+}
+
+input[type=radio]:checked + .lane{
+    outline: 2px solid #A19100;
+    background: #002764;
+}
+
+input[type=radio]:hover + .lane{
+    cursor: pointer;
+}
+
+input[type=radio]{ 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    /* display: inline; */
+}
+
+select{
+    display: block;
+    color: white;
+    font-family: "caudex";
+    font-size: 1.2rem;
+    background: #03518C;
+    border: 1px solid #A19100;
+    padding: 5px;
+    margin: 10px 0 10px 10px;
+}
+
+.main .guides .guidesContainer hr{
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.main .guides .guidesContainer .guidesInhalt{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guides .guidesContainer .guidesInhalt a{
+    width: 100%;
+    text-decoration: none;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide{
+    padding: 5px;
+    border: 1px solid #A19100;
+    width: 100%;
+    background: #003D80;
+    margin: 10px 0;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide img{
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid #A19100;
+    margin: 5px;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide .guideInfos{
+    margin-left: 30px;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide .guideInfos .title{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "caudex-bold";
+    margin-bottom: 30px;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide .guideInfos .smallInfo{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: "caudex";
+}
+
+.main .guides .guidesContainer .guidesInhalt .guide .guideInfos .smallInfo span{
+    color: #A19100;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection{
+    padding: 5px;
+    width: 100%;
+    position: relative;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guideUserEdit{
+    position: relative;
+    left: 30%;
+    /* float: left; */
+    bottom: 11px;
+    width: 200px;
+    border: 1px solid #A19100;
+    border-top: none;
+    padding: 10px 30px;
+    background: #003D80;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guideUserEdit i{
+    font-size: 2rem;
+    color: white;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guideUserEdit i:hover{
+    color: rgb(144, 144, 144);
+    cursor: pointer;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage,
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage{
+    background: #03518C;
+    border-radius: 4px;
+    padding: 5px;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage:hover,
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage:hover{
+    background: #003D80;
+    cursor: pointer;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage a,
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage a{
+    text-decoration: none;
+    color: white;
+    font-family: "caudex";
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages{
+    width: 300px;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages a{
+    /* display: inline-block; */
+    width: 40px;
+    text-decoration: none;
+    color: white;
+    font-family: "caudex";
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.2rem;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    border-radius: 4px;
+}
+
+/* .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages a .lastpage{
+    
+} */
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages a:hover{
+    background: #003D80;
+}
+
+.main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages .active{
+    background: #03518C;
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(27, 27, 27, 0.5);
+    position: fixed;
+    z-index: 106;
+    top: 0;
+    left: 0;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /* display: none; */
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion{
+    padding: 20px 30px;
+    background: #003D80;
+    border-radius: 5px;
+    border: solid 1px #A19100;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion .deleteYesNo{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion .deleteYesNo p,
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion .deleteYesNo a{
+    color: white;
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 600;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    margin: 10px 20px 0 20px;
+}
+
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion .deleteYesNo p:hover,
+.main .guides .guidesContainer .guidesInhalt .deleteContainer .deleteQuestion .deleteYesNo a:hover{
+    cursor: pointer;
+    color: rgb(156, 156, 156);
+}
+
+.successContainer{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(26, 117, 26);
+    border: solid 2px rgb(94, 185, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.displayerrors{
+    width: 300px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: rgb(161, 156, 156);
+    color: rgb(134, 29, 29);
+    border: solid 2px rgb(251, 46, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+/* === Mobile Design === */
+
+@media screen and (max-width: 992px) {
+
+    .main .guides{
+        padding: 100px 0 100px 0;
+    }
+
+    .main .guides .guidesTitle{
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .main .guides .guidesContainer .guidesFilter{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .main .guides .guidesContainer .guidesFilter .guidesLanes,
+    .main .guides .guidesContainer .guidesFilter .guidesChampions{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+
+    }
+
+    .main .guides .guidesContainer .guidesFilter .guidesLanes p,
+    .main .guides .guidesContainer .guidesFilter .guidesChampions p{
+        margin: 15px 0;
+    }
+
+    .main .guides .guidesContainer .guidesFilter .lanes{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .main .guides .guidesContainer .guidesFilter .lanes .lane{
+        margin: 5px;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guide{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guide .guideInfos{
+        margin: 0;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guideUserEdit{
+        position: relative;
+        width: 100%;
+        /* border: none; */
+        bottom: 10px;
+        left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .main .guides .guidesContainer .guidesInhalt .guideUserEdit i{
+        font-size: 2rem;
+        color: white;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
+        transition: 0.1s;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guide .guideInfos .title{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guide .guideInfos .smallInfo{
+        font-size: 1rem;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection{
+        margin-top: 30px;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage,
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage{
+        background: #03518C;
+        border-radius: 4px;
+        padding: 2px;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
+        transition: 0.1s;
+        position: absolute;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage{
+        left: 20px;
+        bottom: 40px;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage{
+        right: 20px;
+        bottom: 40px;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .backpage a,
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .nextpage a{
+        text-decoration: none;
+        color: white;
+        font-family: "caudex";
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .main .guides .guidesContainer .guidesInhalt .guidesPageSelection .pages a{
+        /* display: inline-block; */
+        width: 40px;
+        text-decoration: none;
+        color: white;
+        font-family: "caudex";
+        font-weight: 600;
+        text-align: center;
+        font-size: 1.2rem;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
+        transition: 0.1s;
+        border-radius: 4px;
+    }
+}
